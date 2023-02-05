@@ -1,3 +1,5 @@
+import fetch from 'node-fetch';
+
 export async function ping() {
   try {
     const res = await fetch(`https://back-fqrl.onrender.com/ping/ping`, {
